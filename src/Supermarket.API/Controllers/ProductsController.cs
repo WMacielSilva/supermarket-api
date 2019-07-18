@@ -17,12 +17,19 @@ namespace Supermarket.API.Controllers
         private readonly IProductService _productService;
         private readonly IMapper _mapper;
 
+        public int soma(int a , int b)
+        {
+            return a + b;
+        }
         public ProductsController(IProductService productService, IMapper mapper)
         {
             _productService = productService;
             _mapper = mapper;
         }
+        public ProductsController()
+        {
 
+        }
         /// <summary>
         /// Lists all existing products.
         /// </summary>

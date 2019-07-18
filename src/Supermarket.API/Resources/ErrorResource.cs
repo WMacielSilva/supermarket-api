@@ -21,5 +21,9 @@ namespace Supermarket.API.Resources
                 this.Messages.Add(message);
             }
         }
+        public int soma(int a, int b)
+        {
+            return a + b;
+        }
     }
 }

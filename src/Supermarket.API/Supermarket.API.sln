@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supermarket.API", "Supermarket.API.csproj", "{F99E8B34-6468-4A71-BE2C-E4654B6F16FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "..\XUnitTestProject1\XUnitTestProject1.csproj", "{E9E0A541-2F28-41E1-A802-16A3DE27F3CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F99E8B34-6468-4A71-BE2C-E4654B6F16FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99E8B34-6468-4A71-BE2C-E4654B6F16FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99E8B34-6468-4A71-BE2C-E4654B6F16FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99E8B34-6468-4A71-BE2C-E4654B6F16FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E0A541-2F28-41E1-A802-16A3DE27F3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E0A541-2F28-41E1-A802-16A3DE27F3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E0A541-2F28-41E1-A802-16A3DE27F3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E0A541-2F28-41E1-A802-16A3DE27F3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {724BA8F3-49DB-4970-9CFB-A0F4D465C2F5}
+	EndGlobalSection
+EndGlobal
